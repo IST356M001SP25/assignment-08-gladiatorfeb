@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Hassatou Daramey
+Sudent Email:  hndarame@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,10 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+While working on the test_top_locations_mappable function, I ran into a KeyError related to the 'amount' column. The error occurred when I tried to select specific columns after merging the violations_df with top_locs. The error message indicated that the 'amount' column was missing from the DataFrame, which was unexpected.
+
+At the time, I didn’t fully understand why the 'amount' column was missing, and I didn’t anticipate potential column name conflicts. I didn’t print out the columns or use any debugging techniques to examine the DataFrame more closely, which left me unsure of the underlying issue.
+
+Looking back, I realize I didn’t fully grasp the assignment’s requirements, and this affected my ability to troubleshoot the problem effectively. I now see that understanding the structure of the data and being aware of column name conflicts are crucial when working with merged DataFrames.
+
+This experience highlighted the importance of thoroughly understanding both the data and the task at hand before diving into implementation and debugging. Moving forward, I need to take more time to review the details of the assignment and the data to prevent issues like this.
